@@ -12,17 +12,39 @@
 *= require_tree .
 */
 @import "bootstrap_configuration";
-
 @import "bootstrap";
 
-//->Prelang (ui_framework:twitter_bootstrap)
-
-// Give everything in 'yield' margin to separate it.
-.yield {
-  margin: 30px;
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
 }
 
-// Constrain forms for models (scaffolded models) so they aren't full page width.
-.form-model {
-  max-width: 750px;
+.navbar {
+  border-radius: none;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url("logo.gif") no-repeat center #000;
+  width: 100%;
+  height: 183px;
+  margin: 150px auto 0 auto;
+}
+
+/* Main Page */
+
+.coming-soon-box {
+  width: 100%;
+  text-align: center;
+}
+
+.coming-soon-box h1 {
+  color: #fff;
 }
