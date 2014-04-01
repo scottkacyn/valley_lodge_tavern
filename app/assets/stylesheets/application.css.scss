@@ -11,8 +11,96 @@
 *= require_self
 *= require_tree .
 */
+
+/* ----------------------------------------- */
+/* Reset to minimize browser inconsistencies */
+/* ----------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------- */
+/* Import Bootstrap Defaults */
+/* ------------------------- */
+
 @import "bootstrap_configuration";
 @import "bootstrap";
+
+/* --------------------------------------- */
+/* Add @font-face directive for good fonts */
+/* --------------------------------------- */
+
+@font-face {
+  font-family: 'FuturaLT-Bold';
+  src: url('FuturaLT-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'FuturaLT-Book';
+  src: url('FuturaLT-Book.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Tisa';
+  src: url('Tisa.ttf');
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: FuturaLT-Bold, Helvetica, sans-serif;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+p, a {
+  font-family: FuturaLT-Book, Helvetica, sans-serif;
+}
+
+i, em {
+  font-family: Tisa, Helvetica, sans-serif;
+}
 
 .navbar-default {
   background-color: transparent;
@@ -20,11 +108,24 @@
 }
 
 .navbar {
-  border-radius: none;
+  border-radius: none !important;
 }
 
 .navbar-header {
   width: 100%;
+}
+
+.navbar-nav, .navbar-nav > ul {
+  font-family: FuturaLT-Book, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-nav > li {
+  width: 20%;
+}
+
+.navbar-nav > li > a {
 }
 
 .logo {
@@ -32,19 +133,65 @@
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background: url("logo.gif") no-repeat center #000;
+  background: url("logo.gif") no-repeat center transparent;
+  background-size: contain;
   width: 100%;
-  height: 183px;
-  margin: 150px auto 0 auto;
+  height: 150px;
+  margin: 0 auto;
 }
 
-/* Main Page */
-
-.coming-soon-box {
-  width: 100%;
+address {
   text-align: center;
 }
 
-.coming-soon-box h1 {
-  color: #fff;
+/* -------- */
+/* Divider */
+/* -------- */
+
+.divider {
+  height: 1px;
+  margin: 50px 25px;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #fff;
+}
+
+/* -------- */
+/* Carousel */
+/* -------- */
+
+.carousel {
+  width: 100%;
+  height: 400px;
+  background: #efefef;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+/* ------- */
+/* Section */
+/* ------- */
+
+.section {
+  text-align: center;
+}
+
+.section h1 {
+  font-size: 24px;
+}
+
+.section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+.footer li {
+  float: left;
+  width: 25%;
 }
