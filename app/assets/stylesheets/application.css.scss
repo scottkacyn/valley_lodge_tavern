@@ -91,6 +91,16 @@ table {
   width: 20%;
 }
 
+.navbar-default .navbar-nav > li.active {
+  border-bottom: 4px solid rgba(230,93,79,1);
+  margin-bottom: -1px;
+}
+
+.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:hover {
+  color: rgba(230,93,79,1);
+  background-color: rgba(23,23,24,1);
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #FAFAFA;
   text-transform: uppercase;
@@ -136,19 +146,29 @@ i, em {
   font-family: Tisa, Helvetica, sans-serif;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .logo {
   display: inline-block;
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
   background: url("logo.gif") no-repeat center transparent;
+  background-size: contain;
   width: 100%;
-  height: 183px;
+  height: 150px;
   margin: 0 auto;
 }
 
 address {
   text-align: center;
+}
+
+.wrapper {
+  background: #fafafa;
 }
 
 /* -------- */
@@ -166,12 +186,60 @@ address {
 /* Carousel */
 /* -------- */
 
-.carousel {
+.carousel-container {
   width: 100%;
-  height: 400px;
-  background: #efefef;
+  background: rgba(23,23,24,1);
+  margin-top: -20px;
+  margin-bottom: 50px;
+  padding: 20px 0;
+}
+
+.carousel {
+  position: relative;
+  max-width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.carousel .tile {
+  z-index: 1;
+  position: absolute;
   overflow: hidden;
-  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+
+  -ms-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.carousel .tile:hover {
+  z-index: 2;
+  -ms-transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+}
+
+.carousel .tile:hover .tile-info {
+  opacity: 1;
+}
+
+.carousel .tile .tile-info {
+  display: table-cell;
+  opacity: 0;
+  width: 80%;
+  height: 80%;
+  padding: 10%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+
+  -ms-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 /* ------- */
@@ -180,6 +248,7 @@ address {
 
 .section {
   text-align: center;
+  background: #fafafa;
 }
 
 .section h1 {
@@ -190,6 +259,10 @@ address {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.section.header {
+  background: rgba(23,23,24,1);
 }
 
 .section .footer {
@@ -211,4 +284,12 @@ address {
   height: 600px;
   margin-top: -20px;
   padding: 0;
+}
+
+/* Menu */
+
+.menu-container {
+  width: 100%;
+  height: 500px;
+  margin-top: -20px;
 }

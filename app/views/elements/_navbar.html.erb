@@ -17,11 +17,11 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/menu">Menu</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/location">Location</a></li>
+            <% links = [["Home","/"], ["Menu","/menu"], ["About","/about"], ["Contact","/location"], ["Events","/events"]] %>
+            <% links.each do |link| %>
+              <% currClass = (request.path == link[1]) ? "active" : "" %>
+              <li class="<%= currClass %>"><%= link_to link[0], link[1] %></li>
+            <% end %>
           </ul>
         </div>
         <div class="col-md-1"></div>

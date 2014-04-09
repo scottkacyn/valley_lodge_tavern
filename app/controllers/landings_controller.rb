@@ -1,6 +1,4 @@
 class LandingsController < ApplicationController
-  before_filter :allow_iframe_requests
-
   def index
   end
 
@@ -13,10 +11,6 @@ class LandingsController < ApplicationController
   def contact
   end
 
-  def location
-  end
-
-  def allow_iframe_requests
-    response.headers.delete('X-Frame-Options')
+  def events
   end
 end

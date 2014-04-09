@@ -2,13 +2,28 @@
 <script>
   function initialize() {
     var mapCanvas = document.getElementById('map_canvas');
+    var latLng = new google.maps.LatLng(42.093581, -87.798507);
+    var wilmette = new google.maps.LatLng(42.071176, -87.722745);
+
     var mapOptions = {
-      center: new google.maps.LatLng(42.093581, -87.798507),
-      zoom: 15,
+      center: latLng,
+      zoom: 12,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      title: 'Glenview'
+    });
+
+    var marker2 = new google.maps.Marker({
+      position: wilmette,
+      map: map,
+      title: 'Wilmette'
+    });
   }
   google.maps.event.addDomListener(window, 'load', initialize);
 </script>

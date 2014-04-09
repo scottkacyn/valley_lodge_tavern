@@ -5,6 +5,7 @@ ValleyLodgeTavern::Application.routes.draw do
   match "/about"    => "landings#about", via: :get
   match "/contact"  => "landings#contact", via: :get
   match "/location" => "landings#location", via: :get
+  match "/events"   => "landings#events", via: :get
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
