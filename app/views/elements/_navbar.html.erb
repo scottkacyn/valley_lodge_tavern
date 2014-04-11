@@ -7,25 +7,18 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <%= link_to "My Application", defined?(root_path) ? root_path : "#", class: "logo" %>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="navbar-collapse-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <ul class="nav navbar-nav">
-            <% links = [["Home","/"], ["Menu","/menu"], ["About","/about"], ["Contact","/location"], ["Events","/events"]] %>
-            <% links.each do |link| %>
-              <% currClass = (request.path == link[1]) ? "active" : "" %>
-              <li class="<%= currClass %>"><%= link_to link[0], link[1] %></li>
-            <% end %>
-          </ul>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
+    <div class="navbar-wrapper">
+      <ul class="nav navbar-nav">
+        <% links = [["Home","/"], ["Menu","/menu"], ["About","/about"], ["Contact","/location"], ["Events","/events"]] %>
+        <% links.each do |link| %>
+          <% currClass = (request.path == link[1]) ? "active" : "" %>
+          <li class="<%= currClass %>"><%= link_to link[0], link[1] %></li>
+        <% end %>
+      </ul>
     </div>
   </div><!-- /.navbar-collapse -->
 </nav>

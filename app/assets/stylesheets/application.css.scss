@@ -75,17 +75,26 @@ table {
   border: none;
 }
 
-.navbar-header {
-  width: 100%;
-}
-
-.navbar-nav, .navbar-nav > ul {
+.navbar-default .navbar-collapse {
   text-align: center;
-  width: 100%;
+  margin: 0;
 }
 
-.navbar-nav > li {
-  width: 20%;
+.navbar-wrapper {
+  text-align: center;
+}
+
+.navbar-wrapper ul {
+  float: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+  *display: inline;
+}
+
+.navbar-wrapper li {
+  float: left;
 }
 
 .navbar-default .navbar-nav > li {
@@ -118,7 +127,7 @@ table {
 body {
   background: url("dark_wood_@2X.png") repeat #000;
   line-height: 1;
-  padding-top: 206px;
+  padding-top: 40px;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
@@ -151,10 +160,8 @@ iframe {
   overflow: hidden;
   white-space: nowrap;
   background: url("logo.gif") no-repeat center transparent;
-  background-size: contain;
   width: 100%;
-  height: 150px;
-  margin: 0 auto;
+  height: 183px;
 }
 
 address {
@@ -162,7 +169,7 @@ address {
 }
 
 .wrapper {
-  background: rgba(92,64,51,0.3);
+  /*background: rgba(92,64,51,0.3);*/
   padding: 25px 0;
 }
 
