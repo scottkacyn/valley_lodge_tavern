@@ -90,10 +90,11 @@ table {
 }
 
 .navbar-default .navbar-nav > li {
-  border-bottom: 4px solid #333;
+  border-bottom: 4px solid #000;
 }
 
 .navbar-default .navbar-nav > li.active {
+  border-bottom: 4px solid rgba(230,93,79,1);
 }
 
 .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:hover {
@@ -136,6 +137,7 @@ table {
 }
 
 body {
+  background: url("dark_wood_@2X.png") repeat #000;
   line-height: 1;
   padding-top: 206px;
 }
@@ -176,7 +178,8 @@ address {
 }
 
 .wrapper {
-  background: url("dark_wood_@2X.png") repeat #000;
+  background: rgba(92,64,51,0.3);
+  padding: 25px 0;
 }
 
 /* -------- */
@@ -307,6 +310,7 @@ address {
   width: 100%;
   height: 600px;
   margin-top: -20px;
+  margin-bottom: 25px;
   padding: 0;
 }
 
