@@ -72,6 +72,7 @@ table {
 .navbar-default {
   background-color: rgba(23,23,24,1);
   border-color: transparent;
+  border: none;
 }
 
 .navbar-header {
@@ -93,8 +94,6 @@ table {
 }
 
 .navbar-default .navbar-nav > li.active {
-  border-bottom: 4px solid rgba(230,93,79,1);
-  margin-bottom: -1px;
 }
 
 .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:hover {
@@ -255,12 +254,19 @@ address {
 /* Section */
 /* ------- */
 
+.leather_binder {
+  background: #000;
+  padding: 15px;
+  max-width: 944px;
+  margin: 0 auto 40px auto;
+}
+
 .paper {
   padding: 50px 0;
   background: #fafafa;
-  max-width: 944px;
-  margin: 0 auto 40px auto;
-  border: 2px solid #000000;
+  max-width: 914px;
+  margin: 0 auto;
+  border: 2px solid #000;
 }
 
 .section {
@@ -290,8 +296,8 @@ address {
 
 .section .footer li {
   float: left;
-  width: 100%;
-  color: #dddddd;
+  width: 33.33%;
+  color: #cccccc;
   text-shadow: 1px 1px #ffffff;
 }
 
