@@ -40,9 +40,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
 ol, ul {
   list-style: none;
 }
@@ -114,6 +111,9 @@ table {
   color: rgba(230,93,79,1);
 }
 
+.btn-orange {
+}
+
 /* --------------------------------------- */
 /* Add @font-face directive for good fonts */
 /* --------------------------------------- */
@@ -134,6 +134,11 @@ table {
   font-family: 'Tisa';
   src: url('Tisa.ttf');
   font-weight: normal;
+}
+
+body {
+  line-height: 1;
+  padding-top: 206px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -172,7 +177,7 @@ address {
 }
 
 .wrapper {
-  background: url("dark_wood_@2x.png") repeat #000;
+  background: url("dark_wood_@2X.png") repeat #000;
 }
 
 /* -------- */
@@ -181,9 +186,9 @@ address {
 
 .divider {
   height: 1px;
-  margin: 50px 25px;
-  border-bottom: 1px solid #222;
-  border-top: 1px solid #333;
+  margin: 50px 100px;
+  border-bottom: 1px solid #EEE;
+  border-top: 1px solid #FFF;
 }
 
 /* -------- */
@@ -192,7 +197,7 @@ address {
 
 .carousel-container {
   width: 100%;
-  background: rgba(23,23,24,1);
+  background: transparent;
   margin-top: -20px;
   margin-bottom: 50px;
   padding: 20px 0;
@@ -250,9 +255,16 @@ address {
 /* Section */
 /* ------- */
 
+.paper {
+  padding: 50px 0;
+  background: #fafafa;
+  max-width: 944px;
+  margin: 0 auto 40px auto;
+  border: 2px solid #000000;
+}
+
 .section {
   text-align: center;
-  background: transparent;
 }
 
 .section h1 {
@@ -272,13 +284,15 @@ address {
 .section .footer {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
+  text-align: center;
   clear: both;
 }
 
 .section .footer li {
   float: left;
-  width: 25%;
+  width: 100%;
+  color: #dddddd;
+  text-shadow: 1px 1px #ffffff;
 }
 
 /* Google Map */
