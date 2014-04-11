@@ -91,6 +91,10 @@ table {
   width: 20%;
 }
 
+.navbar-default .navbar-nav > li {
+  border-bottom: 4px solid #333;
+}
+
 .navbar-default .navbar-nav > li.active {
   border-bottom: 4px solid rgba(230,93,79,1);
   margin-bottom: -1px;
@@ -168,7 +172,7 @@ address {
 }
 
 .wrapper {
-  background: #fafafa;
+  background: url("dark_wood_@2x.png") repeat #000;
 }
 
 /* -------- */
@@ -178,8 +182,8 @@ address {
 .divider {
   height: 1px;
   margin: 50px 25px;
-  border-bottom: 1px solid #eaeaea;
-  border-top: 1px solid #fff;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #333;
 }
 
 /* -------- */
@@ -196,7 +200,7 @@ address {
 
 .carousel {
   position: relative;
-  max-width: 1000px;
+  max-width: 944px;
   height: 900px;
   margin: 0 auto;
 }
@@ -248,7 +252,7 @@ address {
 
 .section {
   text-align: center;
-  background: #fafafa;
+  background: transparent;
 }
 
 .section h1 {
