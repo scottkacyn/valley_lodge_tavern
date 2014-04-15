@@ -69,6 +69,10 @@ table {
   border-radius: 0 !important;
 }
 
+.navbar-header {
+  width: 100%;
+}
+
 .navbar-default {
   background-color: rgba(23,23,24,1);
   border-color: transparent;
@@ -125,11 +129,11 @@ table {
 }
 
 body {
-  background: url("dark_wood_@2X.png") repeat #000;
+  background: #272727;
   line-height: 1;
-  padding-top: 40px;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  padding-top: 240px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -160,8 +164,9 @@ iframe {
   overflow: hidden;
   white-space: nowrap;
   background: url("logo.gif") no-repeat center transparent;
-  width: 100%;
+  background-size: contain;
   height: 183px;
+  width: 100%;
 }
 
 address {
