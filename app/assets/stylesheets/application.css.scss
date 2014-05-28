@@ -70,6 +70,7 @@ table {
 }
 
 .navbar-header {
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -134,7 +135,7 @@ body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  padding-top: 170px;
+  padding-top: 130px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -164,9 +165,9 @@ iframe {
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background: url("logo.gif") no-repeat center transparent;
+  background: url("logo-web.png") no-repeat center transparent;
   background-size: contain;
-  height: 100px;
+  height: 60px;
   width: 100%;
 }
 
