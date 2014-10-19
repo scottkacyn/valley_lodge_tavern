@@ -65,6 +65,11 @@ table {
   border-spacing: 0;
 }
 
+/* line 60, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+html, body {
+  height: 100%;
+}
+
 /* ------------------------------------- */
 /* Import Bootstrap Defaults & Overrides */
 /* ------------------------------------- */
@@ -7951,38 +7956,38 @@ button.close {
     display: none !important;
   }
 }
-/* line 67, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 71, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 * {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
 
-/* line 73, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 77, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-header {
   padding-top: 20px;
   width: 100%;
 }
 
-/* line 78, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 82, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default {
   background-color: #171718;
   border-color: transparent;
   border: none;
 }
 
-/* line 84, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 88, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-collapse {
   text-align: center;
   margin: 0;
 }
 
-/* line 89, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 93, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-wrapper {
   text-align: center;
 }
 
-/* line 93, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 97, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-wrapper ul {
   float: none;
   display: inline-block;
@@ -7992,28 +7997,28 @@ button.close {
   *display: inline;
 }
 
-/* line 102, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 106, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-wrapper li {
   float: left;
 }
 
-/* line 106, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 110, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li {
   border-bottom: 4px solid #000;
 }
 
-/* line 110, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 114, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li.active {
   border-bottom: 4px solid #e65d4f;
 }
 
-/* line 114, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 118, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:hover {
   color: #e65d4f;
   background-color: #171718;
 }
 
-/* line 119, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 123, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li > a {
   color: #FAFAFA;
   text-transform: uppercase;
@@ -8021,12 +8026,12 @@ button.close {
   font-weight: normal;
 }
 
-/* line 126, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 130, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li > a:hover {
   color: #e65d4f;
 }
 
-/* line 133, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 137, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 body {
   background: #252525;
   background-size: cover;
@@ -8036,19 +8041,19 @@ body {
   padding-top: 130px;
 }
 
-/* line 142, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 146, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 h1, h2, h3, h4, h5 {
   margin: 0;
   padding-bottom: 15px;
   font-family: "din-condensed-web", HelveticaNeue, Helvetica, sans-serif;
 }
 
-/* line 148, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 152, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 h3 {
   font-size: 34px;
 }
 
-/* line 152, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 156, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 p, a, address, i, em, ul, ol, li {
   font-family: "proxima-nova", HelveticaNeue, Helvetica, sans-serif;
   font-size: 16px;
@@ -8056,13 +8061,13 @@ p, a, address, i, em, ul, ol, li {
   line-height: 20px;
 }
 
-/* line 159, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 163, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 164, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 168, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .logo {
   display: inline-block;
   text-indent: 100%;
@@ -8074,21 +8079,22 @@ iframe {
   width: 100%;
 }
 
-/* line 175, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 179, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 address {
   text-align: center;
 }
 
-/* line 179, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 183, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .wrapper {
   /*background: rgba(92,64,51,0.3);*/
   padding: 25px 0;
+  min-height: 100%;
 }
 
 /* -------- */
 /* Divider */
 /* -------- */
-/* line 188, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 193, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .divider {
   height: 1px;
   margin: 50px 100px;
@@ -8099,7 +8105,7 @@ address {
 /* -------- */
 /* Carousel */
 /* -------- */
-/* line 199, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 204, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel-container {
   width: 100%;
   background: transparent;
@@ -8108,7 +8114,7 @@ address {
   padding: 20px 0;
 }
 
-/* line 207, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 212, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel {
   position: relative;
   max-width: 944px;
@@ -8116,7 +8122,7 @@ address {
   margin: 0 auto;
 }
 
-/* line 214, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 219, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel .tile {
   z-index: 1;
   position: absolute;
@@ -8129,7 +8135,7 @@ address {
   transition: all .2s ease-in-out;
 }
 
-/* line 227, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 232, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel .tile:hover {
   z-index: 2;
   -ms-transform: scale(1.1, 1.1);
@@ -8137,12 +8143,12 @@ address {
   transform: scale(1.1, 1.1);
 }
 
-/* line 234, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 239, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel .tile:hover .tile-info {
   opacity: 1;
 }
 
-/* line 238, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 243, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .carousel .tile .tile-info {
   display: table-cell;
   opacity: 0;
@@ -8162,7 +8168,7 @@ address {
 /* ------- */
 /* Section */
 /* ------- */
-/* line 259, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 264, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .leather_binder {
   background: #000;
   padding: 15px;
@@ -8170,7 +8176,7 @@ address {
   margin: 0 auto 40px auto;
 }
 
-/* line 266, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 271, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .paper {
   padding: 50px 0;
   background: #fafafa;
@@ -8179,29 +8185,29 @@ address {
   border: 2px solid #000;
 }
 
-/* line 274, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 279, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section {
   text-align: center;
 }
 
-/* line 278, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 283, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section h1 {
   font-size: 34px;
 }
 
-/* line 282, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 287, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 288, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 293, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section.header {
   background: #171718;
 }
 
-/* line 292, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 297, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section .footer {
   float: left;
   width: 100%;
@@ -8209,7 +8215,7 @@ address {
   clear: both;
 }
 
-/* line 299, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 304, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .section .footer li {
   float: left;
   width: 33.33%;
@@ -8218,7 +8224,7 @@ address {
 }
 
 /* Google Map */
-/* line 308, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 313, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 #map_canvas {
   width: 100%;
   height: 600px;
@@ -8226,14 +8232,14 @@ address {
 }
 
 /* Menu */
-/* line 316, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 321, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .menu-container {
   width: 100%;
   height: 100%;
   margin-top: -20px;
 }
 
-/* line 322, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
+/* line 327, /Users/scottklieberman/WebApps/valley_lodge_tavern/app/assets/stylesheets/application.css.scss */
 .menu-container iframe {
   margin-top: -110px;
 }
